@@ -1,0 +1,6 @@
+#!/bin/sh
+
+docker run -d --rm \
+	-v minetest:/home/minetest \
+	-p 30000:30000/udp \
+	minetest 
